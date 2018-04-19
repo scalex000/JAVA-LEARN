@@ -21,11 +21,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractFactoryPatternDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractFactoryPatternDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/lesson2/AbstractFactoryPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleObject.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/lesson3/SingleObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingletonPatternDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/lesson3/SingletonPatternDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -63,6 +87,8 @@
         <option value="$PROJECT_DIR$/src/com/example/lesson2/ColorFactory.java" />
         <option value="$PROJECT_DIR$/src/com/example/lesson2/FactoryProducer.java" />
         <option value="$PROJECT_DIR$/src/com/example/lesson2/AbstractFactoryPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lesson3/SingleObject.java" />
+        <option value="$PROJECT_DIR$/src/com/example/lesson3/SingletonPatternDemo.java" />
       </list>
     </option>
   </component>
@@ -95,13 +121,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JAVA-LEARN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JAVA-LEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -122,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryPatternDemo">
+  <component name="RunManager" selected="Application.SingletonPatternDemo">
     <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.lesson2.AbstractFactoryPatternDemo" />
       <module name="JAVA-LEARN" />
@@ -141,6 +160,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SingletonPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.lesson3.SingletonPatternDemo" />
+      <module name="JAVA-LEARN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,9 +219,11 @@
     <list>
       <item itemvalue="Application.FactoryPatternDemo" />
       <item itemvalue="Application.AbstractFactoryPatternDemo" />
+      <item itemvalue="Application.SingletonPatternDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Application.AbstractFactoryPatternDemo" />
         <item itemvalue="Application.FactoryPatternDemo" />
       </list>
@@ -209,17 +241,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,6 +432,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lesson3/SingletonPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/lesson3/SingleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
